@@ -1,0 +1,126 @@
+body{
+  background-color: #FAFAFA;
+}
+.card{
+  animation-name: upper;
+  animation-duration: 1s;
+}
+@-webkit-keyframes upper{
+  0%{
+    transform: translateY(70px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.color-text{
+  color: #C5C5C5;
+}
+.fa-tshirt{
+  font-size: 55px;
+  color: #87E9FF;
+}
+.fa-futbol{
+  font-size: 60px;
+  color: #CA87FF;
+}
+.fa-car{
+  font-size: 60px;
+  color: #FD689E;
+}
+.fa-laptop-code{
+  font-size: 50px;
+  color: #C4FD68;
+}
+.fa-book-open{
+  font-size: 50px;
+  color: #FD9568;
+}
+.fa-gamepad{
+  font-size: 50px;
+  color: #E8FD68;
+}
+.card-twos{
+  border: 0px solid #eaeaea;
+  padding: 30px;
+  box-shadow: 0 0 20px #eaeaea;
+}
+.card-modif{
+  border: 0px solid #eaeaea;
+  padding: 10px;
+  box-shadow: 0 0 10px #E8C2FF;
+  width: 50px;
+  height: 50px;
+  margin-top: -15px;
+  margin-left: -10px;
+  background-color: #8628C0;
+}
+.card-header-two{
+  background-color: #fff;
+}
+#body-row {
+    margin-left:0;
+    margin-right:0;
+}
+#sidebar-container {
+    min-height: 100vh;   
+    background-color: #333;
+    padding: 0;
+}
+.bg-custom{
+  background-color: #1A0725;
+}
+.sidebar-expanded {
+    width: 230px;
+}
+.sidebar-collapsed {
+    width: 60px;
+}
+
+
+#sidebar-container .list-group a {
+    height: 50px;
+    color: white;
+}
+
+
+#sidebar-container .list-group .sidebar-submenu a {
+    height: 45px;
+    padding-left: 30px;
+}
+.sidebar-submenu {
+    font-size: 0.9rem;
+}
+
+
+.sidebar-separator-title {
+    background-color: #333;
+    height: 35px;
+}
+.sidebar-separator {
+    background-color: #333;
+    height: 25px;
+}
+.logo-separator {
+    background-color: #333;    
+    height: 60px;
+}
+
+
+#sidebar-container .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after {
+  content: " \f0d7";
+  font-family: FontAwesome;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+}
+
+#sidebar-container .list-group .list-group-item[aria-expanded="true"] .submenu-icon::after {
+  content: " \f0da";
+  font-family: FontAwesome;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+}
